@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class TicTacToeTester
+{
+    public static void main(String[] args)
+    {
+        TicTacToe game = new TicTacToe();
+
+        System.out.println("TicTacToe by Tyler Vilet");
+        System.out.println();
+        
+        game.playGame();
+        
+        
+    }
+}
